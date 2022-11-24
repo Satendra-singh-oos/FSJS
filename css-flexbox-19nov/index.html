@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-19nov</title>
+
+    <style>
+        .container{
+            height: 1000px;
+            border: 2px solid black;
+        }
+        .about{
+            background-color: #FF6666;
+            border: 5px solid #CAD5E2;
+            border-radius: 10px;
+            width: 170px;
+            margin-left: 500px;
+        }
+        .about:hover{
+            background-color: #CAD5E2;
+            border: 5px solid #FF6666;
+        }
+
+        .pos{
+            border: 1px solid black;
+            display: inline-block;
+            height: 70px;
+            width: 70px;
+            text-align: center;
+            border-radius: 7px;
+        }
+
+        #three{
+            background-color: #8D3DAF;
+            position: sticky;
+            top: 10px;
+            /* bottom: 10px;
+            right: 10px;                */
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="about">
+  <em>Position we have 5 type <br> (1)Static(Defualt) <br>(2)fiexed <br> (3)sticky <br> (4)releative <br>(5)Absolute</em>
+</div>
+
+  <div class="container">
+
+    <div class="pos">one</div>
+    <div class="pos">Two</div>
+    <div class="pos" id="three">Three</div>
+    <div class="pos">Four</div>
+</div>
+
+   
+
+
+</body>
+</html>
