@@ -4,16 +4,16 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif
  
 }
-.container{
+body{
     background-image: url(./assets/bg.png);
     height: 100vh; 
     /* Center and scale the image nicely */
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    /* padding-top: 100px; */
 }
 
 
@@ -23,31 +23,38 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 85px;
 }
 .logo{
     margin-top: 40px;
-    margin-left: 20px;
-    margin-bottom: 20px;
     width: 100px;
+    position:relative;
+    left: 100px; 
+    bottom: 20px;
 }
 .line{
   border-left: 2px solid white;
   height: 50px;
-  margin-right:150px ;
+  position:relative;
+  right: 100px; 
+
 }
 
 .list{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    
 }
 .list-item{
-    margin-right: 140px;
+    margin-left: 60px;
     list-style: none;
     font-weight: 600;
     color: white;
+    position:relative;
+    right:300px; 
+    top:2px; 
 }
-
 
 .button-small{
    border: none;
@@ -59,7 +66,12 @@
    font-size: 16px;
    padding: 5px 20px;
    margin-right:50px ; 
+   position:relative; 
+    left:20px; 
+    top:2px;
 }
+
+
 
 .hero{
     display: flex;
@@ -71,27 +83,32 @@
 .hero-heading{
     color: rgba(243, 241, 238, 0.951);
     text-align: center;
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 600;
+    position: relative;
+    top:40px;
+    right: 45px;
 }
 .hero-description{
-    margin-top: 10px;
     color: rgb(243, 239, 236); 
     font-size: 30px;
     font-weight:300;
+    position: relative;
+    top:50px;
+    right: 30px;
 }
 
 
 .button-large{
-    margin-top: 90px;
     border: none;
    border-radius: 12px;
    text-decoration: none;
    color: white;
    background-color: #8800ad;
    text-align: center;
-   font-size: 26px;
+   font-size: 25px;
    padding: 15px 25px;
    margin-right:50px ;
+   position: relative;
+   top:100px;
 }
-
