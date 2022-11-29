@@ -1,4 +1,4 @@
-# Project-01->Crypto Market
+# Project-03->Fashion Hub
 
 * this a basic landing web page that i built using just pure html & css.
 
