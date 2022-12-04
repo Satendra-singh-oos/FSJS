@@ -8,7 +8,6 @@
 
 -Learn About How to maintain the gap like (margin,padding,top, ...etc)
 
-**Output-Vedio**
+**Output**
 
-
-[vedio](./Output-vedio/clone-output.mkv)
+https://gregarious-taiyaki-a42313.netlify.app
