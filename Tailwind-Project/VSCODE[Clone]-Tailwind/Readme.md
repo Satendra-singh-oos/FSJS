@@ -1,5 +1,5 @@
-## This is VsCode Websote Clon Built Using By Tailwind-Css ##
-
+## This is VsCode Website Clon Built Using By Tailwind-Css ##
+ ### Project is not responsive as of now ###
 **Outcome of project**
 
 -Learn About How to use diffrent type of position's
