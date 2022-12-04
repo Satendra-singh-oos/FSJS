@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS-Code-Website-Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- NavBar -->    
+    <nav class="bg-gray-800 sticky top-0 z-50">
+        <div class="px-8 max-auto relative ">
+        <div class="flex justify-between ">
+            <div class="flex space-x-4  px-7">
+                <!-- Logo -->       
+                <div >
+                    <a href="#" class="flex item-center py-3 px-2 text-gray-300">
+                    <img class="h-7 w-7 mr-4"src="./clone-img/nav-vscode.png" alt="">
+                    <span class="text-xl font-sans">Visual Studio Code</span>
+                    </a>
+                    
+                </div>
+                <!-- Primery nav -->
+                <div class="flex items-center space-x-1 ">
+                    <a href="#" class=" py-2 px-3 text-gray-400 hover:text-gray-200">Docs</a>
+                    <a href="#" class=" py-2 px-3 text-gray-400 hover:text-gray-200">Update</a>
+                    <a href="#" class=" py-2 px-3 text-gray-400 hover:text-gray-200">Blog</a>
+                    <a href="#" class=" py-2 px-3 text-gray-400 hover:text-gray-200">Api</a>
+                    <a href="#" class=" py-2 px-3 text-gray-400 hover:text-gray-200">Extension</a>
+                    <a href="#" class=" py-2 px-3 text-gray-400 hover:text-gray-200">FAQ</a>
+                    <a href="#" class=" py-2 px-3 text-gray-400 hover:text-gray-200">Learn</a>
+                </div>
+           </div>
+           <!-- secondery nav -->
+           <div class="flex items-center">
+
+            <!-- Nav-Search-Bar-->
+            <a href="#" class="flex items-center justify-center text-gray-50 py-3 ">
+                 <div class=" bg-gray-700 p-3 flex items-center hover:border-1 hover:bg-slate-600  ">
+                      <a href="#" class="py-1"> <img class="h-5 w-5" src="./clone-img/search.svg" alt="search.svg"></a>
+                      <input type="text" placeholder="Search Docs"
+                      class="ml-3 bg-transparent outline-none caret-white">                      
+
+                </div>
+            </a>
+            <!-- Nav Download-button -->
+
+            <a href="#" class="py-3 px-10 bg-blue-700 text-white-900 hover:bg-blue-800 ">
+                <div class="flex items-center justify-center ">
+                    <img class="h-4 w-4" src="./clone-img/download.svg" alt="">
+                    <span class="px-2 text-lg font-medium text-gray-100">Download</span>
+                </div>
+            </a>
+           </div>
+        </div>
+        </div>
+
+    </nav>
+
+    <!-- Declaration -->
+    <div class="bg-slate-900 text-center">
+       <a href="#" class="text-blue-500 pr-2">Version 0.0.0.0</a> 
+       <span class="text-gray-200">This is for <span class="font-bold  text-Neutral-50">Education purpose </span>!! and this project is not resposive </span>
+    </div>
+
+    <!-- 1-st HeroSection -->
+
+    <section class=" flex justify-between item-center bg-gray-700  ">
+        <!-- left Herosection -->
+        <div class=" p-5 m-5 my-28 ml-28 ">
+             <h1 class="text-center text-white text-5xl font-semibold font-sans">Code editing. <br> Redefined.</h1>
+             <p class="text-center text-slate-400 text-xl ">Free. Built on open source. Runs everywhere</p>
+
+             <!-- Dowanlad for windows button -->
+             
+             <a href="#" class="flex item-center justify-center ">
+                <div class="bg-blue-700 text-center  py-2 pl-1 pr-1  my-3 hover:bg-blue-800 ">
+                    <span class="text-white font-bold text-xl ">Dowanlad for Windows</span>
+                    <p class="text-white font-thin text-xs py-1">Stable Build</p>
+                </div>
+
+
+                <div class="bg-blue-700 h-15 pl-4 pr-4 ml-1 my-3 hover:bg-blue-800 ">
+                <svg class="h-6 w-6 text-white my-5 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                  </svg>
+                </div>
+
+            </a>
+
+            <div class="text-center bg-zinc-800 rounded-md text-sm">
+                <a href="#" class="text-blue-500 pr-2">Web</a>
+                <a href="#" class="text-blue-500 pr-2">Insider edition</a><span class="text-gray-400">,or</span>
+                <a href="#"  class="text-blue-500 pr-2">other platforms</a></div>
+
+
+                
+          <div class="text-center my-3">  
+            <p class="text-gray-400 text-sm ">By using VS Code,you agree to its</p>
+            <a href="#" class="text-blue-500 text-xs">  license and privecy statement</a>
+           </div>
+        </div>
+
+        <!-- Right Herosection -->
+        <div class="mt-16">
+             <img  class="object-scale-down h-5/6 w-full" src="./clone-img/home-screenshot-win-lg.png" alt="">
+        </div>
+    </section>
+
+     <!--  -->
+     <div class="flex justify-around items-center ">
+        <a class="mt-2 "  href="#">
+            <svg class="h-20 w-20 mt-2 mb-2 transform  transition duration-500   hover:scale-125 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+               <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+            </svg>
+            <span class="text-lg  text-gray-700 hover:underline hover:text-fuchsia-500">IntelliSense</span>
+        </a>
+        
+        <a class="mt-2"   href="#">
+            <svg  class="h-20 w-20 mt-2 mb-2 ml-5 transform  transition duration-500   hover:scale-125 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
+              </svg>
+              <span class="text-lg text-gray-700 hover:underline hover:text-red-500">Run and Debug</span>
+        </a>
+        <a class="mt-2"    href="#">
+            <img class="h-20 w-20 mt-2 mb-2 ml-2 transform  transition duration-500   hover:scale-125 " src="./clone-img/git.svg" alt="git">
+            <span class="text-lg text-gray-700 hover:underline  hover:text-yellow-500">Built-in Git</span>
+        </a>
+        <a class="mt-2" href="#">
+            <svg  class="h-20 w-20 mt-2 mb-2 transform  transition duration-500   hover:scale-125 "  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 16.875h3.375m0 0h3.375m-3.375 0V13.5m0 3.375v3.375M6 10.5h2.25a2.25 2.25 0 002.25-2.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v2.25A2.25 2.25 0 006 10.5zm0 9.75h2.25A2.25 2.25 0 0010.5 18v-2.25a2.25 2.25 0 00-2.25-2.25H6a2.25 2.25 0 00-2.25 2.25V18A2.25 2.25 0 006 20.25zm9.75-9.75H18a2.25 2.25 0 002.25-2.25V6A2.25 2.25 0 0018 3.75h-2.25A2.25 2.25 0 0013.5 6v2.25a2.25 2.25 0 002.25 2.25z" />
+              </svg>
+              <span class=" text-lg text-gray-700 hover:underline  hover:text-green-500">Extenstion</span>
+        </a>
+     </div>
+
+
+     <!-- Crousal -->
+     <div class="flex items-center justify-center">
+
+        <svg class="h-10 w-10 ml-10 transform  transition duration-500 hover:text-gray-500  hover:scale-125 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M18.75 19.5l-7.5-7.5 7.5-7.5m-6 15L5.25 12l7.5-7.5" />
+          </svg>
+          
+
+     <div class="flex justify-center items-center h-80 w-96 ml-28">
+
+       <div class="flex justify-center items-center">
+        <img class="h-12 w-12 rounded-3xl mb-28 ml-5 mr-5 transform  transition duration-500   hover:scale-125" src="./clone-img/crousal-img/Una.jpg" alt="">
+        <div class="flex flex-col ">
+        <span class="text-black font-bold text-sm">Una Kravets <span class="text-xs font-thin text-gray-500">@Una</span></span>
+        <span class="text-gray-500">VS <a class="text-blue-600" href="#">@code</a> does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</span>
+       </div>
+       </div>
+
+     </div>
+
+     <div class="flex justify-center items-center  h-80 w-96 ml-28">
+
+        <div class="flex justify-center items-center">
+         <img class="h-12 w-12 rounded-3xl mb-28 ml-5 mr-5 transition duration-500   hover:scale-125" src="./clone-img/crousal-img/jadbox.jpg" alt="">
+         <div class="flex flex-col ">
+         <span class="text-black font-bold text-sm">Una Kravets <span class="text-xs font-thin text-gray-500">@Una</span></span>
+         <span class="text-gray-500">VS <a class="text-blue-600" href="#">@code</a> does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</span>
+        </div>
+        </div>
+ 
+      </div>
+      
+
+      <div class="flex justify-center items-center h-80 w-96 ml-28 mr-28">
+
+        <div class="flex justify-center items-center">
+         <img class="h-12 w-12 rounded-3xl mb-28 ml-5 mr-5 transition duration-500   hover:scale-125" src="./clone-img/crousal-img/PKodmad.jpg" alt="">
+         <div class="flex flex-col ">
+         <span class="text-black font-bold text-sm">Una Kravets <span class="text-xs font-thin text-gray-500">@Una</span></span>
+         <span class="text-gray-500">VS <a class="text-blue-600" href="#">@code</a> does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</span>
+        </div>
+        </div>
+ 
+      </div>
+
+      <svg class="h-10 w-10 mr-10 transform  transition duration-500 hover:text-gray-500 hover:scale-125 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
+      </svg>
+      
+
+    </div>
+       
+
+    <!-- Reference -->
+      
+    <div class="flex justify-center items-center   w-10/12 ml-32">
+      <img class=" ml-40 mt-20" src="./clone-img/reference/home-intellisense.svg" alt="">
+      <div class="flex  flex-col ml-40  ">
+        <span class="mb-5 text-4xl ">Meet IntelliSense</span>
+        <span class="">Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</span>
+      </div>
+
+    </div>
+
+    <div class="flex flex-row-reverse justify-center items-center  w-10/12 ml-32 mt-12">
+        <img class=" mr-40 mt-20" src="./clone-img/reference/home-debug.svg" alt="">
+        <div class="flex  flex-col ml-40  ">
+          <span class="mb-5 text-4xl ">Print statement debugging is a thing of the past</span>
+          <span class="">Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</span>
+        </div>
+  
+      </div>
+
+      <div class="flex justify-center items-center   w-10/12 m-32 mt-12">
+        <img class=" ml-40 mt-20" src="./clone-img/reference/home-git.svg" alt="">
+        <div class="flex  flex-col ml-40  ">
+          <span class="mb-5 text-4xl ">Git commands built-in.</span>
+          <span class="">Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</span>
+        </div>
+  
+      </div>
+
+      <div class="flex flex-row-reverse justify-center items-center  w-10/12 ml-32 mt-12">
+        <img class=" mr-36 mt-8 pl-12 pb-16 h-64 w-96 transform  transition duration-500 hover:scale-125" src="./clone-img/reference/Hundreds-of-Extensions.png" alt="">
+        <div class="flex  flex-col ml-40  ">
+          <span class="mb-5 text-4xl ">Extensible and customizable.</span>
+          <span class="">Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor. <a href="#" class="text-blue-500 hover:underline"> Learn more about extensions.</a></span>
+        </div>
+  
+      </div>
+
+      <div class="flex justify-center items-center   w-10/12 ml-32 mt-12">
+        <img class=" ml-40 mt-20" src="./clone-img/reference/home-azure.svg" alt="">
+        <div class="flex  flex-col ml-40  ">
+          <span class="mb-5 text-4xl ">Deploy with confidence and ease</span>
+          <span class="">With Microsoft Azure you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease, all from within VS Code.</span>
+        </div>
+  
+      </div>
+
+        <!-- VS-CODE FOR  -->
+
+        <div class="flex flex-col justify-center items-center mt-20  ">
+            <span class="text-center text-gray-800 text-3xl font-light  "> VS Code For</span>
+              <!-- 1-st row -->
+              <div class="flex justify-center items-center mt-5 ">
+                <img class="ml-11" src="./clone-img/vs-code-for/javascript.svg" alt="" ><a href="#">  JavaScript</a>
+                <img class="ml-11" src="./clone-img/vs-code-for/python.svg" alt=""> <a href="#">Python</a>
+                <img class="ml-11" src="./clone-img/vs-code-for/java.svg" alt=""><a href="#">Java</a>
+                <img class="ml-11" src="./clone-img/vs-code-for/markdown.svg" alt=""><a href="#">MarkDown</a>
+                <img class="ml-11" src="./clone-img/vs-code-for/typescript.svg" alt=""><a href="#">TypeScript</a>
+                <img class="ml-11" src="./clone-img/vs-code-for/cpp.svg" alt=""><a href="#">C/C++</a>
+              </div>
+              <!-- 2nd-row -->
+              <div class="flex justify-center items-center mt-5">
+                <img class="ml-12" src="./clone-img/vs-code-for/json.svg" alt="" > <a href="#">JSON</a>
+                <img class="ml-12" src="./clone-img/vs-code-for/powershell.svg" alt="" ><a href="#">Powershell</a>
+                <img class="ml-12" src="./clone-img/vs-code-for/html.svg" alt="" > <a href="#">HTML/CSS</a>
+                <img class="ml-12" src="./clone-img/vs-code-for/csharp.svg" alt="" ><a href="#">C#</a>
+                <img class="ml-12" src="./clone-img/vs-code-for/php.svg" alt="" ><a href="#">PHP</a>
+                <img class="ml-12" src="./clone-img/vs-code-for/yaml.svg" alt="" ><a href="#">YAML</a>
+              </div>
+
+              <span class="mt-3"> <a href="#" class="text-blue-500 hover:underline">and many more languages on the Marketplace...</a></span>
+        </div>
+
+
+
+        <!-- main section button -->
+
+        <div class="text-center mt-16">
+            <span class="bg-blue-700 py-4 px-10  text-white font-bold font-sans rounded-sm hover:bg-blue-800">Get Started Now</span>
+        </div>
+
+
+        <!-- Main Downald for Diffrent -->
+
+        <div class=" ml-24   flex justify-center items-center mt-20">
+
+          <div class=" mr-28 mt-20  w-1/5">
+            <img class="h-32 w-32 ml-20 " src="./clone-img/os-logo/windows-logo.png" alt="">
+              <div class="bg-blue-700 mt-4 hover:bg-blue-800">
+              <div class="text-center text-white"> <span class="font-bold font-sans  "><img class="h-4 w-4 ml-24 relative top-5 right-4" src="./clone-img/download.svg" alt="">Windows</span></div>
+              <div class="text-center font-thin text-white text-gray-200 mt-2"><span>Windows 8, 10, 11</span></div>
+              </div>
+              
+            <div class="text-cneter">
+              <div class="ml-12 mt-4">
+                <span>User Installer</span> 
+                <span class="bg-blue-600 text-white font-thin ml-2 pl-1 pr-1 text-xs rounded-sm text-sm ">x64</span>
+                <span class="bg-blue-600 text-white font-thin pl-1 pr-1 text-xs rounded-sm text-sm">x86</span>
+                <span class="bg-blue-600 text-white font-thin  pl-1 pr-1 text-xs rounded-sm text-sm">xArm64</span>
+              </div>
+
+              <div class="ml-10 mt-1">
+                <span>System Installer</span> 
+                <span class="bg-blue-600 text-white font-thin   pl-1 pr-1 text-xs rounded-sm text-sm">x64</span>
+                <span class="bg-blue-600 text-white font-thin pl-1 pr-1 text-xs rounded-sm text-sm">x86</span>
+                <span class="bg-blue-600 text-white font-thin  pl-1 pr-1 text-xs rounded-sm text-sm">xArm64</span>
+              </div>
+
+              <div class="ml-12 mt-1">
+                <span>.zip</span> 
+                <span class="bg-blue-600 text-white font-thin ml-20  pl-1 pr-1 text-xs rounded-sm text-sm">x64</span>
+                <span class="bg-blue-600 text-white font-thin pl-1 pr-1  text-xs rounded-sm text-sm">x86</span>
+                <span class="bg-blue-600 text-white font-thin pl-1 pr-1 text-xs rounded-sm text-sm">xArm64</span>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class=" mr-28 mt-20  w-1/5">
+            <img class="h-32 w-32 ml-20 " src="./clone-img/os-logo/linux-logo.png" alt="">
+              
+             <div class="flex mt-4 ">
+              <div class="bg-blue-700 ml-4 pl-2 pr-2 pb-2 text-center text-white flex flex-col hover:bg-blue-800"> 
+                <span class="font-bold font-sans ml-4 ">
+                <img class="h-4 w-4  relative left-2 top-5 " src="./clone-img/download.svg" alt="">
+                .deb
+              </span>
+                <span class="text-xs mt-2 ml-6">Debian, Ubantu</span>
+              </div>
+              
+              
+              <div class="bg-blue-700 ml-4 pl-2 pr-2 pb-2 text-center text-white flex flex-col hover:bg-blue-800"> 
+                <span class="font-bold font-sans  ">
+                <img class="h-4 w-4  relative left-4  top-5 " src="./clone-img/download.svg" alt="">
+                .deb
+              </span>
+                <span class="text-xs mt-2 ">Read Hat, Fedora, SUSE</span>
+              </div>
+              
+              
+              </div>
+              
+            <div class="text-cneter">
+              <div class="ml-14 mt-4">
+                <span>User Installer</span> 
+                <span class="bg-blue-600 text-white font-thin ml-2 pl-1 pr-1 text-xs rounded-sm text-sm">x64</span>
+                <span class="bg-blue-600 text-white font-thin pl-1 pr-1 text-xs rounded-sm text-sm">x86</span>
+                <span class="bg-blue-600 text-white font-thin  pl-1 pr-1 text-xs rounded-sm text-sm">xArm64</span>
+              </div>
+
+              <div class="ml-12 mt-1">
+                <span>System Installer</span> 
+                <span class="bg-blue-600 text-white font-thin   pl-1 pr-1 text-xs rounded-sm text-sm">x64</span>
+                <span class="bg-blue-600 text-white font-thin pl-1 pr-1 text-xs rounded-sm text-sm">x86</span>
+                <span class="bg-blue-600 text-white font-thin  pl-1 pr-1 text-xs rounded-sm text-sm">xArm64</span>
+              </div>
+
+              <div class="ml-14 mt-1">
+                <span>.zip</span> 
+                <span class="bg-blue-600 text-white font-thin ml-20  pl-1 pr-1 text-xs rounded-sm text-sm">x64</span>
+                <span class="bg-blue-600 text-white font-thin pl-1 pr-1  text-xs rounded-sm text-sm">x86</span>
+                <span class="bg-blue-600 text-white font-thin pl-1 pr-1 text-xs rounded-sm text-sm">xArm64</span>
+              </div>
+
+            </div>
+
+          </div>
+
+          
+
+          
+          
+
+
+
+          
+          <div class="mr-28 mt-6  w-1/5">
+            <img class="h-36 w-36 ml-20 " src="./clone-img/os-logo/apple-logo.svg" alt="">
+              <div class="bg-blue-700 mt-4 hover:bg-blue-800">
+              <div class="text-center text-white"> <span class="font-bold font-sans  "><img class="h-4 w-4 ml-24 relative top-5 " src="./clone-img/download.svg" alt="">MAC</span></div>
+              <div class="text-center font-thin text-white text-gray-200 mt-2"><span class="text-white text-sm">macOS 10.11*</span></div>
+              </div>
+              
+            <div class="text-cneter">
+              <div class="ml-10 mt-4">
+                <span>.zip</span> 
+                <span class="bg-blue-600 text-white font-thin  pl-1 pr-1 text-xs rounded-sm text-sm">Universal</span>
+                <span class="bg-blue-600 text-white font-thin text-xs pl-1 pr-1 rounded-sm text-sm">Intel Chip</span>
+                <span class="bg-blue-600 text-white font-thin text-xs pl-1 pr-1 rounded-sm text-sm">Apple silicon</span>
+              </div>
+            </div>
+
+          </div>
+
+          
+        </div>
+
+
+      <!-- About -->
+      <div class="bg-Neutral-200">
+        <div class="flex justify-around items-center mt-20 ">
+          <div class="flex flex-col ml-12">
+            <span class="font-bold text-xl text-stone-600">Want new features sooner?</span>
+            <span class="pt-5 text-center text-stone-600 mt-2">Get the  <a class="text-blue-500 hover:underline"href="#"> Insiders</a> build instead.</span>
+          </div>
+          <div class="flex flex-col ">
+            <span class="font-bold text-xl text-stone-600">Use <a class="text-blue-500 hover:underline" href="#"> vscode.dev</a> for quick edits <br><span class="pl-28"> online! </span></span>
+            <span class="pt-5 text-center text-stone-600" >GitHub, Azure Repos, and local files.</span>
+          </div>
+        </div>
+
+        <!-- LICENSE AND PRIVACY TERMS -->
+      <div>
+        <div class="text-center mt-16">
+          <span class="text-gray-500 font-bold text-sm">LICENSE AND PRIVACY TERMS</span>
+        </div>
+
+        <div class="text-center mt-8 ">
+          <span class="text-gray-400  text-sm">By downloading and using Visual Studio Code, you agree to the <a class="text-blue-500 hover:underline" href="#"> license terms</a> and <a class="text-blue-500 hover:underline" href=""> privacy statement</a>. VS Code</span>
+        </div>
+
+        <div class="text-center mt-2">
+          <span class="text-gray-400  text-sm">automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not</span>
+        </div>
+
+        <div class="text-center mt-2">
+          <span class="text-gray-400  text-sm">to have this data sent please go see <a class="text-blue-500 hover:underline"href="#"> How to Disable Crash Reporting </a>to learn how to disable it.</span>
+        </div>
+      </div>
+
+    </div>
+       
+
+      <!-- Footer of vs-code -->
+
+      <div class="bg-gray-700 mt-16  flex  justify-around h-24">
+        <div class="flex justify-around items-center">
+        <span class="text-white text-sm hover:text-fuchsia-500">Hello from Seattle.</span>
+        <span class="text-white ml-4 text-sm hover:text-fuchsia-500"> Follow @code </span>
+        <span class="text-white ml-4"> <img src="./clone-img/footer/search.svg" alt=""> </span>
+        </div>
+
+        <div class="text-white ml-4  flex justify-between items-center">
+          <span  class="pr-4 text-sm hover:text-fuchsia-500">Support</span>
+          <span class="pr-4 text-sm hover:text-fuchsia-500">Privacy</span>
+          <span class="pr-4 text-sm hover:text-fuchsia-500">Terms of Use</span>
+          <span class="pr-4 text-sm hover:text-fuchsia-500">License</span>
+          <span class="pl-10 text-xs "><img class=" h-6 " src="./clone-img/footer/microsoft-logo.png" alt="">© 2022 Microsoft</span>
+        </div>
+      </div>
+    
+    
+</body>
+</html>
+
