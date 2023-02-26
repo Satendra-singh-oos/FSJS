@@ -16,7 +16,7 @@ All Assignment Completed
  [a relative link](./05_DOM%20Project/readMe.md)
  
  ## 6<sup>th</sup> Assignment ##
- [a relative link](./06_DOM%20Project/06_DOM%20Project/readMe.md)
+ [a relative link](./06_DOM%20Project/readMe.md)
  
  ## 7<sup>th</sup> Assignment ##
  [a relative link](./DOM%20P7/DOM%20P7/readme.md)
